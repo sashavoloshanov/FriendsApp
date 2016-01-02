@@ -28,6 +28,7 @@
     _romashka.hidesWhenStopped = YES;
     [self.tableView addSubview:_romashka];
     [self.tableView bringSubviewToFront:_romashka];
+    
 }
 
 - (void)fetchDataFromServer {
